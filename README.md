@@ -2,7 +2,9 @@
 ### This is a prototype
 ### why
 photos take time to turn into a knitting and crafts project
+
 first you have to make a map or chart of what colors to put where
+
 this project was started to make this easier
 
 ##### the story
