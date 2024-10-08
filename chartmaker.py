@@ -10,7 +10,7 @@ def usable_chart_maker():
   # picture = cv2.imread(path)
   chart_maker_library.first_photo_chart(path = path,
                                         vertical_default=20,
-                    horizontal_default=30,
+                    horizontal_default=15,
                     darker_than_default=100)
 
 

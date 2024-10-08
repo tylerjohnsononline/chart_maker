@@ -6,7 +6,11 @@ how to get started
 2 name a png: photo_to_become_chart
 3 put this photo into the place_photo_to_be_charted_here folder
   chart_maker\place_photo_to_be_charted_here
-4 from the command line run chart
+4 from the command line in chart maker 2024 folder run 
+the following command:
+```
+```
+ python chart_maker\chartmaker.py
 ```
 ### why
 Photos take time to turn into a knitting and crafts project.
