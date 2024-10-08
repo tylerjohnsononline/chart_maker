@@ -5,14 +5,16 @@ from os import walk
 import cv2
 import chart_maker_library 
 
+def usable_chart_maker():
+  path = "chart_maker\place_photo_to_be_charted_here\photo_to_become_chart.png"
+  # picture = cv2.imread(path)
+  chart_maker_library.first_photo_chart(path = path,
+                                        vertical_default=20,
+                    horizontal_default=30,
+                    darker_than_default=100)
+
 
 if __name__ == "__main__":
-  pass
-  picture = cv2.imread("chart_maker\place_photo_to_be_charted_here\photo.png")
-  chart_maker_library.break_photo_into_grid(picture,5,5)
-  # chart_maker_library.first_photo_chart(vertical_default=50,
-  #                   horizontal_default=100,
-  #                   darker_than_default=100)
-  # user_given_values()
+  usable_chart_maker()
 
 

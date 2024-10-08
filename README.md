@@ -1,5 +1,13 @@
 
 ### This is a prototype
+```
+how to get started
+1 clone this git repository
+2 name a png: photo_to_become_chart
+3 put this photo into the place_photo_to_be_charted_here folder
+  chart_maker\place_photo_to_be_charted_here
+4 run
+```
 ### why
 Photos take time to turn into a knitting and crafts project.
 

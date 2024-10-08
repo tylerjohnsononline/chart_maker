@@ -286,11 +286,12 @@ def save_user_chart(chart):
                 folder_to_save_in = destined_path,
                 file_name = finished_chart)
 
-def first_photo_chart(vertical_default = 3, 
+def first_photo_chart(path,
+                      vertical_default = 3, 
                       horizontal_default = 4, 
                       darker_than_default = 50):
   # def make_chart_of(photo, horizontal = 4, vertical = 3, darker_than = 50):
-  path = get_first_path_from_user_original_folder()
+#   path = get_first_path_from_user_original_folder()
   # print(f"{get_first_path_from_user_original_folder()}")
   user_photo = cv2.imread(path)
   user_chart = make_chart_of(user_photo,
@@ -312,7 +313,8 @@ def view_looped_charts_in_vscode():
     first_photo_chart(18, 40, darker_than_default=xx)
 
 def main():
-  first_photo_chart(vertical_default=50,
+  first_photo_chart(path = "chart_maker\place_photo_to_be_charted_here\photo.png",
+                    vertical_default=50,
                     horizontal_default=100,
                     darker_than_default=100)
   # user_given_values()
