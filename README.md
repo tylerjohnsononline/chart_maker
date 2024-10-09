@@ -1,8 +1,7 @@
 
 ### This is a prototype
-a note: this version does not correct for distortion
-as such it's better to use a photo close in dimensions to the chart, and thus the final 
-the code for and is the next piece to be incorporated and is the next branch
+a note: this version does not correct for distortion; as such, it's better to use a photo close in dimensions to the chart, and thus the final 
+correcting for this is why square photo branch is made
 
 ### how to get started
 ```
