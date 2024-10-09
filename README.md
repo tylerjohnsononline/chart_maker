@@ -12,7 +12,10 @@ the following command:
 ```
  python chart_maker\chartmaker.py
 ```
-type the number of vertical and horizontal boxes you want to make the chart
+```
+type the number of vertical and horizontal boxes you want to make the chart, hitting enter once after each input.
+check the chart_destination in the user_photos folder user_photos\\chart_destination
+```
 ### why
 Photos take time to turn into a knitting and crafts project.
 
