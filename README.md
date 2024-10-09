@@ -1,7 +1,11 @@
 
 ### This is a prototype
+a note: this version does not correct for distortion
+as such it's better to use a photo close in dimensions to the chart, and thus the final 
+the code for and is the next piece to be incorporated and is the next branch
+
+### how to get started
 ```
-how to get started
 1 clone this git repository
 2 name a png: photo_to_become_chart
 3 put this photo into the place_photo_to_be_charted_here folder
