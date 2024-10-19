@@ -19,6 +19,16 @@ the following command:
 5 type the number of vertical and horizontal boxes you want to make the chart, hitting enter once after each input.
 6 check the chart_destination in the user_photos folder user_photos\\chart_destination
 ```
+
+note: operate the command line from chart maker 2024 file or the pathing will not work
+as such your 
+```
+C:you\path\chart maker 2024> python chart_maker\\chartmaker.py
+```
+running this command
+```
+python chart_maker\\chartmaker.py
+```
 ### why
 Photos take time to turn into a knitting and crafts project.
 
