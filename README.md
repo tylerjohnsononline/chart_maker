@@ -23,7 +23,7 @@ the following command:
 note: operate the command line from chart maker 2024 file or the pathing will not work
 as such your 
 ```
-C:you\path\chart maker 2024> python chart_maker\\chartmaker.py
+C:your\path\chart maker 2024> python chart_maker\\chartmaker.py
 ```
 running this command
 ```
