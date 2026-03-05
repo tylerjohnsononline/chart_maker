@@ -1,5 +1,5 @@
-scrolling to the bottom of the following link will show that the fundamentals to turn a photo into a chart map are in tact
-https://colab.research.google.com/github/tylerjohnsononline/chart_maker/blob/tylerjohnsononline-add-the-code/Chart%20Maker%20Colab%20Jupyter%20Notebook.ipynb
+the bottom of this link shows an example of what can be done with the chart maker:
+https://colab.research.google.com/github/tylerjohnsononline/chart_maker/blob/mspaint_ladybug_demo_in_colab/Chart_Maker_Colab_demo_ladybug_outline_Jupyter_Notebook.ipynb
 ### This is a prototype
 I have had difficulty transfering from a colab notebook to command line runnable, partially to do with pathing difficulties. from this I have learned that I will need to manage the required data retrieval from pathing across systems separately first, then work with what is available.
 
