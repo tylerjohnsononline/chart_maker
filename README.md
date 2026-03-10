@@ -8,25 +8,22 @@ correcting for this is why square photo branch is made
 
 ### How To Get Started
 ```
-1 clone this git repository
-2 name a png: photo_to_become_chart
-3 put this photo into the place_photo_to_be_charted_here folder
-  chart_maker\place_photo_to_be_charted_here
-4 from the command line in chart maker 2024 folder run 
-the following command:
-```
-```
- python chart_maker\chartmaker.py
-```
-```
-5 type the number of vertical and horizontal boxes you want to make the chart, hitting enter once after each input.
-6 check the chart_destination in the user_photos folder user_photos\\chart_destination
-```
-
-note: operate the command line from chart maker 2024 file or the pathing will not work
-as such your 
-```
-C:your\path\chart maker 2024> python chart_maker\\chartmaker.py
+1 open the goodle colab link
+2 under user version hover over 7 cells hidden, then the circle play button and click on the play button
+3 click run anyway when prompted, the alert warns you that the code was not written by google, as it was written by me, this is expected
+4 under run this if you ant to uploaad a new photo click on the play butotn next to active_photo.get_photo()
+5 click browse
+6 then from your local files upload a photo
+7 (optional) edit the number of pieces horizontally or verticcally to break the photo into
+8 click the play button under run this and the backend with different numbers if you want a different number of horizontal or vertical stitches
+9 click the play button under the backend
+10 (optional) if you want to see your uploaded photo: click the play button next to show_photo(image)
+11 (optional) if you want some example previews, click the playbutton next to minimum,
+   11b  then click show code which is under
+12 click the play button next to darkness_lv
+13 (optional) change the darkness level if you want more dark places to show up in the final chart
+14 click the play button next to bordered_preview to see the final result
+15 right click on the image of the chart to copy or download it directly from this notebook
 ```
 running this command
 ```
