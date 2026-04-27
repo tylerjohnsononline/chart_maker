@@ -4,7 +4,7 @@ https://colab.research.google.com/github/tylerjohnsononline/chart_maker/blob/msp
 I have had difficulty transfering from a colab notebook to command line runnable, partially to do with pathing difficulties. from this I have learned that I will need to manage the required data retrieval from pathing across systems separately first, then work with what is available.
 
 a note: this version does not correct for distortion; as such, it's better to use a photo close in dimensions to the chart, and thus the final 
-correcting for this is why square photo branch is made
+correcting for this is why square photo branch is made.
 
 ### How To Get Started
 ```
@@ -46,22 +46,22 @@ In order to do so the photo must be made into a grid of what type of thread to u
 ### What It Can Do
 In its current version it can break up a photo into roughly as many pieces as you tell it to. uou have to change the code manually to do this as the code is now
 
-This project can be used to get an idea of what a project might look like
+This project can be used to get an idea of what a knitting pattern or cross stitch project might look like.
 ### What It Can't Do
-Since the number of stitches is incorrect, it can't be used out of the box to make a knitting chart yet
+This program does not correct for non-square images, as such, a square photo will prevent distortion.
 
-The relative size of the pieces the photo is broken up into is not maintained.
+Currently, this software only works in the Google Colab notebook it was written in, as such it only works online.
 
 ### There Is Always Room For Improvement
 ##### Because This Is A Prototype I Have Some Best Practices That I Am Fixing And Improving
-There are too many global variables
+There are too many global variables.
 
-In addition there are unused functions and underutilized classes
+In addition there are unused functions and underutilized classes, these can be updated or removed.
 
-Currently this notebook can be run in Google Colaboratory(Colab) and not elsewhere, so minor changes need to be made to let it run on a local computer
+Currently this notebook can be run in Google Colaboratory(Colab) and not elsewhere, so minor changes would need to be made to let it run on a local computer.
 
 ##### bugs
-When you change the number of pieces to break a photo into to be to high(more than like 5-10 in one dimension) the number of rectangles the photo is divided into is incorrect, usually off from one to three 
+When you change the number of pieces to break a photo into to be to high(more than like 5-10 in one dimension) the number of rectangles the photo is divided into is incorrect, usually off from one to three.
 
 When making a grid that does not have an equal number of x and y boxes, the resulting image stretches.
-It is believed this happens because more borders are around the pieces along the axis with more boxes
+It is believed this happens because more borders are around the pieces along the axis with more boxes.
