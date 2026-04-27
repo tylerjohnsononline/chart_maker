@@ -50,6 +50,7 @@ This project can be used to get an idea of what a knitting pattern or cross stit
 ### What It Can't Do
 This program does not correct for non-square images, as such, a square photo will prevent distortion.
 Here is an example of an image that was not squared enough:
+
 ![original](https://github.com/tylerjohnsononline/chart_maker/blob/main/readme_images/original_robot_not_square.png)
 ![converted](https://github.com/tylerjohnsononline/chart_maker/blob/main/readme_images/distorted_robot.png)
 !![charted with border](https://github.com/tylerjohnsononline/chart_maker/blob/main/readme_images/charted_distorted_robot.png)
